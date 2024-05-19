@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="54d9773a-754d-4959-98f7-7210ec8acecc">
+  <name>РаботаСЗарплатами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с зарплатами</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.ВКМ_НачислениеЗарплаты</content>
+  <content>Document.ВКМ_НачислениеФиксированныхПремий</content>
+  <content>Document.ВКМ_ВыплатаЗарплаты</content>
+  <content>Report.ВКМ_ВыработкаСпециалиста</content>
+  <parentSubsystem>Subsystem.РасчётЗарплаты</parentSubsystem>
+</mdclass:Subsystem>

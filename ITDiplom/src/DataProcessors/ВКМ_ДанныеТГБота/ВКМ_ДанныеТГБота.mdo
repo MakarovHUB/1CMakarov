@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0520cde7-8a46-4618-8fb2-662b9f70d0ad">
+  <producedTypes>
+    <objectType typeId="bb3f05ab-7c76-487e-8f8f-9d9c53039a43" valueTypeId="eca943af-74ef-4921-8fa8-06a56b26d0db"/>
+    <managerType typeId="ef0c49c5-0c17-40b8-bb69-4c338ee60224" valueTypeId="857d499b-e343-4d58-81e8-5ec37400634f"/>
+  </producedTypes>
+  <name>ВКМ_ДанныеТГБота</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки подключения бота</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ВКМ_ДанныеТГБота.Form.Форма</defaultForm>
+  <attributes uuid="c5f4fe65-021e-4448-95ca-a4fd2cf949e4">
+    <name>ИдентификаторГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор группы</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="074b51cf-2615-4e21-81d2-f309b458095c">
+    <name>ТокенБота</name>
+    <synonym>
+      <key>ru</key>
+      <value>Токен</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <forms uuid="0cbcd91d-3ba0-47b6-a8b8-1512310c59dd">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

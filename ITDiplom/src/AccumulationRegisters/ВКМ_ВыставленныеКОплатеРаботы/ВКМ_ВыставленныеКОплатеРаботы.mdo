@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f525949b-96a3-406e-8ffc-30b113d3d7f8">
+  <producedTypes>
+    <selectionType typeId="992835c5-503d-4a0a-bd56-6608794db34d" valueTypeId="c63f9a18-db7a-43a7-bcd8-bffbc3710c3d"/>
+    <listType typeId="9fea29bb-5531-4449-9c95-5ed9d9ca8dd3" valueTypeId="a0c68f81-0a46-43fb-b2c8-ffeeec07d0a7"/>
+    <managerType typeId="8d6770bc-90d4-4074-8237-4eb125d6dfbb" valueTypeId="41d7f736-285a-49a9-b1a7-5bdde8c76b62"/>
+    <recordSetType typeId="806a67c3-8669-4028-8397-d0e2db8a6e9c" valueTypeId="11fd9c1f-a391-4a5b-b338-11f8abc8bda9"/>
+    <recordKeyType typeId="851f6832-83aa-4374-af3b-8c1e820bbf01" valueTypeId="a2121733-9ac6-4f3a-9a1b-cf5eae7031a4"/>
+    <recordType typeId="0d6288ef-ef71-4352-9e6c-2a854ef14bfc" valueTypeId="f515732e-aa32-45dd-af46-75c8fb232aff"/>
+  </producedTypes>
+  <name>ВКМ_ВыставленныеКОплатеРаботы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выставленные к оплате работы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="295267f9-c39e-4c4a-b889-89db216f1824">
+    <name>СуммаКОплате</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма к оплате</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="3aee4554-bb3e-422d-b479-a5981932c33b">
+    <name>Клиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="74c40c48-36aa-4408-8aa7-0ef8254272da">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="6e927aa7-fa5f-4f0b-b172-6d6e64cb6158">
+    <name>Договор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДоговорыКонтрагентов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

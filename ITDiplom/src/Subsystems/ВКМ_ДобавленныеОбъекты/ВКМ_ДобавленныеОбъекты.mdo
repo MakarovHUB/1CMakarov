@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8c50b347-c581-4b6a-936f-3c8df43aca6f">
+  <name>ВКМ_ДобавленныеОбъекты</name>
+  <synonym>
+    <key>ru</key>
+    <value>ВКМ добавленные объекты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Document.ВКМ_ОбслуживаниеКлиента</content>
+  <content>Enum.ВидыДоговоровКонтрагентов</content>
+  <content>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы</content>
+  <content>Role.ВКМ_РаботаСОбработкойЗаявок</content>
+  <content>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</content>
+  <content>ScheduledJob.ВКМ_ОтправкаУведомленийВТГ</content>
+  <content>Catalog.ВКМ_ТекстУведомленияБоту</content>
+  <content>Constant.ВКМ_ИдентификаторГруппы</content>
+  <content>Constant.ВКМ_ТокенБота</content>
+  <content>DataProcessor.ВКМ_ДанныеТГБота</content>
+  <content>DataProcessor.ВКМ_МассовоеСозданиеАктов</content>
+  <content>InformationRegister.ВКМ_УсловияОплатыСотрудников</content>
+  <content>CalculationRegister.ВКМ_ОсновныеНачисления</content>
+  <content>CalculationRegister.ВКМ_ДополнительныеНачисления</content>
+  <content>CalculationRegister.ВКМ_Удержания</content>
+  <content>Document.ВКМ_НачислениеЗарплаты</content>
+  <content>Document.ВКМ_ВыплатаЗарплаты</content>
+  <content>AccumulationRegister.ВКМ_КоличествоДнейОтпуска</content>
+  <content>Catalog.ВКМ_ФизическиеЛица</content>
+  <content>Catalog.ВКМ_Подразделение</content>
+  <content>Catalog.ДоговорыКонтрагентов</content>
+  <content>Report.ВКМ_ВыработкаСпециалиста</content>
+  <content>Report.ВКМ_АнализВыставленныхАктов</content>
+  <content>Report.ВКМ_РасчетыССотрудниками</content>
+  <content>Report.ВКМ_РасходЗапланированныхОтпусков</content>
+  <content>Catalog.ВКМ_ГрафикиРабот</content>
+  <content>DataProcessor.ВКМ_ЗаполнениеГрафикаРабот</content>
+  <content>CommonModule.ВКМ_ОтправкаСообщенияТГ</content>
+  <content>Role.ВКМ_РаботаСКадрами</content>
+  <content>Role.ВКМ_РаботаСМассовымСозданиемДокументов</content>
+  <content>Constant.ВКМ_НоменклатураРаботыСпециалиста</content>
+  <content>Constant.ВКМ_НоменклатураАбонентскаяПлата</content>
+  <content>Document.ВКМ_ГрафикОтпусков</content>
+  <content>Document.ВКМ_НачислениеФиксированныхПремий</content>
+  <content>ChartOfCalculationTypes.ВКМ_Удержания</content>
+  <content>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</content>
+  <content>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления</content>
+  <content>InformationRegister.ВКМ_ГрафикиРаботы</content>
+  <content>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы</content>
+  <content>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</content>
+  <content>AccumulationRegister.ВКМ_ВыставленныеКОплатеРаботы</content>
+</mdclass:Subsystem>
