@@ -9,7 +9,7 @@
   <content>Document.ВКМ_ОбслуживаниеКлиента</content>
   <content>Enum.ВидыДоговоровКонтрагентов</content>
   <content>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы</content>
-  <content>Role.ВКМ_РаботаСОбработкойЗаявок</content>
+  <content>Role.ВКМ_РольМенеджер</content>
   <content>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</content>
   <content>ScheduledJob.ВКМ_ОтправкаУведомленийВТГ</content>
   <content>Catalog.ВКМ_ТекстУведомленияБоту</content>

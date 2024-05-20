@@ -574,9 +574,10 @@
   <roles>Role.ЧтениеДополнительныхСведений</roles>
   <roles>Role.ЧтениеНСИ</roles>
   <roles>Role.ЧтениеУчетныхЗаписейЭлектроннойПочты</roles>
-  <roles>Role.ВКМ_РаботаСОбработкойЗаявок</roles>
+  <roles>Role.ВКМ_РольМенеджер</roles>
   <roles>Role.ВКМ_РаботаСМассовымСозданиемДокументов</roles>
   <roles>Role.ВКМ_РаботаСКадрами</roles>
+  <roles>Role.ВКМ_РольСпециалист</roles>
   <commonTemplates>CommonTemplate.ДанныеПечатиОбщиеРеквизиты</commonTemplates>
   <commonTemplates>CommonTemplate.ДанныеПечатиРегистрСимволов</commonTemplates>
   <commonTemplates>CommonTemplate.ИнструкцияПоСозданиюФаксимильнойПодписиИПечати</commonTemplates>
