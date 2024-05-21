@@ -66,6 +66,5 @@
   <content>Report.АнализПравДоступа</content>
   <content>CommonForm.ВосстановлениеПаролей</content>
   <content>Report.ПраваРолей</content>
-  <content>DataProcessor.ВКМ_ДанныеТГБота</content>
   <content>DataProcessor.ВКМ_ЗаполнениеГрафикаРабот</content>
 </mdclass:Subsystem>

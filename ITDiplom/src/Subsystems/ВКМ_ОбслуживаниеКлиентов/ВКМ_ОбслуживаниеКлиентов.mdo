@@ -11,5 +11,6 @@
     <picture>CommonPicture.СостояниеПользователя02</picture>
   </picture>
   <content>DataProcessor.ВКМ_МассовоеСозданиеАктов</content>
+  <content>DataProcessor.ВКМ_ДанныеТГБота</content>
   <subsystems>РаботаСКлиентами</subsystems>
 </mdclass:Subsystem>
