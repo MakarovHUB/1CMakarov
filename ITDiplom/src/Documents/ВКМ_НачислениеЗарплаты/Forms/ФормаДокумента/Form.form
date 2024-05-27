@@ -676,7 +676,7 @@
       </userVisible>
       <title>
         <key>ru</key>
-        <value>ОсновныеНачисления</value>
+        <value>Основные начисления</value>
       </title>
       <extendedTooltip>
         <name>ГруппаОсновныеНачисленияРасширеннаяПодсказка</name>
@@ -910,56 +910,6 @@
             <textEdit>true</textEdit>
           </extInfo>
         </items>
-        <items xsi:type="form:FormField">
-          <name>ДополнительныеНачисленияСуммаКВыплате</name>
-          <id>72</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Объект.ДополнительныеНачисления.СуммаКВыплате</segments>
-          </dataPath>
-          <extendedTooltip>
-            <name>ДополнительныеНачисленияСуммаКВыплатеРасширеннаяПодсказка</name>
-            <id>74</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <contextMenu>
-            <name>ДополнительныеНачисленияСуммаКВыплатеКонтекстноеМеню</name>
-            <id>73</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <autoFill>true</autoFill>
-          </contextMenu>
-          <type>InputField</type>
-          <editMode>EnterOnInput</editMode>
-          <showInHeader>true</showInHeader>
-          <headerHorizontalAlign>Left</headerHorizontalAlign>
-          <showInFooter>true</showInFooter>
-          <extInfo xsi:type="form:InputFieldExtInfo">
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <wrap>true</wrap>
-            <chooseType>true</chooseType>
-            <typeDomainEnabled>true</typeDomainEnabled>
-            <textEdit>true</textEdit>
-          </extInfo>
-        </items>
         <autoCommandBar>
           <name>ДополнительныеНачисленияКоманднаяПанель</name>
           <id>49</id>
@@ -1142,7 +1092,7 @@
       </userVisible>
       <title>
         <key>ru</key>
-        <value>ДополнительныеНачисления</value>
+        <value>Дополнительные начисления</value>
       </title>
       <extendedTooltip>
         <name>ГруппаДополнительныеНачисленияРасширеннаяПодсказка</name>
